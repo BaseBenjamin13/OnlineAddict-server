@@ -6,5 +6,24 @@
     "express": "^4.18.2",
     "mongoose": "^6.7.2",
     "nodemon": "^2.0.20"
-  }
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "onlineaddict-server",
+  "description": "## Alana Calvo, Charnaye Grier, and I are working on Online Addict to perfect or software engineering skills.",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BaseBenjamin13/OnlineAddict-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BaseBenjamin13/OnlineAddict-server/issues"
+  },
+  "homepage": "https://github.com/BaseBenjamin13/OnlineAddict-server#readme"
 }
