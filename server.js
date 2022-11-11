@@ -5,7 +5,7 @@ const app = express();
 
 
 //CONTROLLERS
-
+const videoGamesController = require('./controllers/videogames')
 
 
 app.use(express.json());
@@ -15,6 +15,7 @@ app.get('/favicon.ico', (req, res) => {
     // console.log('favicon')
 })
 
+app.use('/videogames', videoGamesController);
 
 const port = process.env.PORT || 5005;
 app.listen(port, () => {
